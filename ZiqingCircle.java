@@ -13,10 +13,13 @@ public class ZiqingCircle extends CircleShape{
   }
 
   public void draw(Graphics g){
+    super.draw(g);
+
     int u = (int)(x-radius);
     int v = (int)(y-radius);
     int w = (int)(2*radius);
     int h = w;
+
     g.setColor( color );
     g.fillOval( u,v,w,h );
     g.setColor( Color.GREEN );
