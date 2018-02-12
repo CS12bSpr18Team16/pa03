@@ -38,6 +38,9 @@ public class DrawingModel {
       c = new RadiusChangingCircle();
       this.add(c);
 
+      c = new ChoHanCircle();
+      this.add(c);
+
 		}
 	}
 
